@@ -1,6 +1,5 @@
 name: Sync Repository Action
 on:
-  push:
   schedule:
     - cron:  '0 16 * * *'
 
