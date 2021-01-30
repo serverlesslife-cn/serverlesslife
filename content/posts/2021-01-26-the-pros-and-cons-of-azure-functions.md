@@ -16,9 +16,23 @@ featuredImagePreview: '/images/2021-01-26-the-pros-and-cons-of-azure-functions/a
 ![azure](/images/2021-01-26-the-pros-and-cons-of-azure-functions/azure.png)
 
 ### 引言
-Azure Functions 在开发人员中越来越受欢迎，这些开发人员主要是 .NET 开发人员。Microsoft提供了许多不同的应用程序部署平台，包括容器、PaaS、WebApps、Azure Functions、Azure Logic Apps 等。借助如此多样化的产品组合，Microsoft 将 Azure Functions 定位为企业级的 Serverless 产品。该文章将重点介绍 Microsoft 的 Serverless 平台如何满足开发人员的需求。
+Azure Functions 在开发人员中越来越受欢迎，这些开发人员主要是 .NET 开发人员。
 
-与 AWS Lambda 不同，Microsoft 的 Serverless 产品在开发人员中的采用速度较慢，但该平台得到了熟悉 Microsoft 开发工具链的 .NET 开发人员的大力支持。Azure Functions 是一个支持 .NET、Java、Node.js 和 Python 的多语言平台。它与 Github、Visual Studio 和 Visual Studio Code 以及其 DevOps 产品 Azure Pipelines 很好地集成在一起。该平台支持从 Web 应用程序到 API 到机器学习工作流的各种用例。像 Catalyst 平台与 Zoho Create 低代码平台集成一样，Azure Functions 也与 Microsoft 低代码平台 Azure Power Apps 集成。
+Microsoft提供了许多不同的应用程序部署平台，包括容器、PaaS、WebApps、Azure Functions、Azure Logic Apps 等。
+
+借助如此多样化的产品组合，Microsoft 将 Azure Functions 定位为企业级的 Serverless 产品。
+
+该文章将重点介绍 Microsoft 的 Serverless 平台如何满足开发人员的需求。
+
+与 AWS Lambda 不同，Microsoft 的 Serverless 产品在开发人员中的采用速度较慢，但该平台得到了熟悉 Microsoft 开发工具链的 .NET 开发人员的大力支持。
+
+Azure Functions 是一个支持 .NET、Java、Node.js 和 Python 的多语言平台。
+
+它与 Github、Visual Studio 和 Visual Studio Code 以及其 DevOps 产品 Azure Pipelines 很好地集成在一起。
+
+该平台支持从 Web 应用程序到 API 到机器学习工作流的各种用例。
+
+像 Catalyst 平台与 Zoho Create 低代码平台集成一样，Azure Functions 也与 Microsoft 低代码平台 Azure Power Apps 集成。
 
 ### Azure Functions 的优势
 * 与 AWS 和 Google Cloud 的函数即服务（FaaS）产品相比，Azure 更加注重企业。它使用 “Durable Functions” 扩展为有状态应用程序提供支持。多数企业都希望使用 Serverless 部署有状态应用程序，并且该平台非常适合满足此需求。与对长时间运行任务的支持和对高成本计划中的实例支持相比，Microsoft 将 Azure Functions 定位为企业级无服务器平台。
