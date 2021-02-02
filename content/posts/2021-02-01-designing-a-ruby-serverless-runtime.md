@@ -1,7 +1,7 @@
 ---
 title: 'Google 是如何设计 Ruby Serverless Runtime 的？'
 summary: 'Google 在设计 Ruby Serverless Runtime 时面临的一些设计问题，做出的决策以及为什么做出这些决策。'
-tags: ['google', 'serverless']
+tags: ['google', 'ruby', 'serverless']
 date: 2021-02-01
 author: donghui
 featuredImagePreview: '/images/2021-02-01-designing-a-ruby-serverless-runtime/google.png'

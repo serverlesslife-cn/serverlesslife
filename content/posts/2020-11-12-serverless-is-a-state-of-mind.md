@@ -1,7 +1,7 @@
 ---
 title: 'Serverless 是一种思想状态'
 summary: '重点是专注，这就是选择 Serverless 的原因'
-tags: [serverless']
+tags: ['serverless']
 date: 2020-11-12
 author: donghui
 featuredImagePreview: '/images/2020-11-12-serverless-is-a-state-of-mind/serverless-is-a-state-of-mind.png'
