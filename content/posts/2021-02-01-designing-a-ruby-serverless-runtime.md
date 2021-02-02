@@ -39,7 +39,7 @@ featuredImagePreview: '/images/2021-02-01-designing-a-ruby-serverless-runtime/go
 
 例如，某些 FaaS 框架使您可以使用 def 在 Ruby 文件的顶层编写函数：
 
-```
+```ruby
 def handler(event:, context:)
   "Hello, world!"
 end
@@ -49,7 +49,7 @@ end
 
 Google Ruby 团队认为这个问题很严重，所以我们选择了一种不同的语法，将函数写成块的形式:
 
-```
+```ruby
 require "functions_framework"
 FunctionsFramework.http("handler") do |request|
   "Hello, world!"
@@ -74,7 +74,7 @@ end
 
 为此，Ruby 运行时支持启动函数，这些函数可以初始化资源并将它们传递给函数调用方。重要的是，启动函数可以创建资源，而普通函数只能读取它们。
 
-```
+```ruby
 require "functions_framework"
 
 
@@ -103,7 +103,7 @@ FaaS 范式实际上非常适合测试。函数本质上是容易测试的，只
 
 然而，我们遇到的主要测试挑战之一与测试初始化代码有关。确实，这是 Google Ruby团队成员在使用其他框架(包括 Rails)时遇到的一个问题：很难测试应用程序的初始化过程，因为框架的初始化通常发生在测试之外，在它们运行之前。因此，我们设计了一种测试方法来隔离函数的整个生命周期，包括初始化。这允许我们在测试中运行初始化，甚至重复它多次，允许不同方面的测试：
 
-```
+```ruby
 require "minitest/autorun"
 require "functions_framework/testing"
 
@@ -157,7 +157,7 @@ Google Cloud Functions 的 Ruby 运行时的另一个特性，或者可能是怪
 例如，在近期内，许多函数将响应 web hook，并需要关于传入 HTTP 请求的信息。设计一个表示 HTTP 请求的类并不困难，但是 Ruby 社区已经有了用于这类事情的标准 API: Rack。我们采用 Rack 请求类作为事件参数，并支持标准的 Rack 响应作为返回值。
 require "functions_framework"
 
-```
+```ruby
 FunctionsFramework.http "http_example" do |request|
   # request is a Rack::Request object.
   logger.info "I received #{request.request_method} from #{request.url}!"
@@ -173,7 +173,7 @@ end
 
 Google Cloud Functions 支持 CNCF CloudEvents，这是一个描述和交付事件的新兴标准。除了 HTTP 请求之外，云函数还可以接收 CloudEvent 形式的数据，运行时甚至会在调用函数时将一些遗留事件类型转换为 CloudEvent。
 
-```
+```ruby
 require "functions_framework"
 
 
