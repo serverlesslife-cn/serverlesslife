@@ -64,7 +64,7 @@ theme = "LoveIt"
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = "donhui"
+    GitHub = "serverlesslife-cn"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
