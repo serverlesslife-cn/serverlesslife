@@ -1,0 +1,19 @@
+component: website # (必填) 引用 component 的名称，当前用到的是 tencent-website 组件
+name: serverlesslife-2021 # (必填) 该 website 组件创建的实例名称
+app: serverlesslife-2021 # (可选) 该 website 应用名称
+stage: prod # (可选) 用于区分环境信息，默认值是 dev
+
+inputs:
+  src:
+    src: ./public
+    index: index.html
+  region: ap-guangzhou
+  bucketName: serverlesslife-2021
+  protocol: https
+  hosts:
+    - host: serverlesslife.cn
+      https:
+        switch: on
+        http2: on
+        certInfo:
+          certId: 'kBM9GLPt'
