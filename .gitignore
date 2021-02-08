@@ -18,4 +18,8 @@ $RECYCLE.BIN/
 # Linux
 .directory
 
+# JetBrains Product file
 .idea/
+
+# serverless .env file
+.env
