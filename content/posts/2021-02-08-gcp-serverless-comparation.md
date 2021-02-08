@@ -34,7 +34,7 @@ Cloud Run 由 Knative 构建， 是 Google 最新的 Serverless 产品。其他 
 
 ## Google Cloud Functions: Serverless 函数
 尽管 Cloud Run 接受容器并通过 HTTP 请求来调用，但 Cloud Functions  仍然是 Google 的事件驱动型 Serverless 平台。与打包在 Docker 容器中不同，您需要将代码部署为函数。Google 支持编写 Cloud Functions，因此也可以通过 HTTP 请求调用它们，或将其设置为根据后台事件触发。
-```ruby
+```python
 def hello_get(request):
 
     """HTTP Cloud Function.
