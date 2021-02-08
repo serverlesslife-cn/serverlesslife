@@ -12,6 +12,8 @@ inputs:
   protocol: https
   hosts:
     - host: serverlesslife.cn
+      autoRefresh: true #开启自动 CDN 刷新，用于快速更新和同步加速域名中展示的站点内容
+      onlyRefresh: true #建议首次部署后，将此参数配置为 true，即忽略其他 CDN 配置，只进行刷新操作
       https:
         switch: on
         http2: on
