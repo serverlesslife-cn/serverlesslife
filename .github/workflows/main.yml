@@ -35,36 +35,5 @@ jobs:
           SSH_KEY: ${{ secrets.GITEE_KEY }}
         with:
           github-repo: "git@github.com:serverlesslife-cn/serverlesslife.git"
-          gitee-repo: "git@gitee.com:serverlesslife/serverlesslife.git"   
-          
-  serverless:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.6]
-    
-    steps:
-    - uses: actions/checkout@v1
-    
-    - name: Generate .env
-      run: |
-        touch .env
-        echo TENCENT_SECRET_ID=${{secrets.TENCENT_SECRET_ID}} >> .env
-        echo TENCENT_SECRET_KEY=${{secrets.TENCENT_SECRET_KEY}} >> .env
-    
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.79.1'
-
-    - name: Build
-      run: hugo --minify
-      
-    - name: Deploy
-      uses: serverless/github-action@master
-      with:
-          args: deploy
-      env:
-         TZ: Asia/Shanghai
-         GLOBAL_ACCELERATOR_NA: true
+          gitee-repo: "git@gitee.com:serverlesslife/serverlesslife.git"
           
