@@ -1,7 +1,7 @@
 ---
 title: 'serverlesslife.cn 上线背后的故事～'
 summary: '细数 serverlesslife.cn 上线背后的故事～'
-tags: [serverlesslife', 'serverless framework']
+tags: ['serverlesslife', 'serverless framework']
 date: 2021-02-22
 author: donghui
 featuredImagePreview: '/images/2021-02-22-serverlesslife-release/serverlesslife.png'
