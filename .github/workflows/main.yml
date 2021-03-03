@@ -37,3 +37,10 @@ jobs:
           github-repo: "git@github.com:serverlesslife-cn/serverlesslife.git"
           gitee-repo: "git@gitee.com:serverlesslife/serverlesslife.git"
           
+      - name: Sync to Coding
+        uses: x-dr/sync-repo-to-gitee@master
+        env:
+          SSH_KEY: ${{ secrets.GITEE_KEY }}
+        with:
+          github-repo: "git@github.com:serverlesslife-cn/serverlesslife.git"
+          gitee-repo: "git@e.coding.net:donghui1/serverlesslife/serverlesslife.git"
