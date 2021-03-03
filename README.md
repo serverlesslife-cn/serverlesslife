@@ -1,4 +1,4 @@
-## serverlesslife
+## ServerlessLife
 专注 Serverless 实践与资讯
 
 访问方式：
