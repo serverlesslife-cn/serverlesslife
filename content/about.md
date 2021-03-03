@@ -15,7 +15,6 @@ ServerlessLife，专注 Serverless 实践与资讯！
 源码
 * [GitHub](https://github.com/serverlesslife-cn/serverlesslife)
 * [Gitee](https://gitee.com/serverlesslife/serverlesslife)
-* [CODING](https://donghui1.coding.net/public/serverlesslife/serverlesslife/git/files)
 
 媒体平台
 * [开源中国](https://my.oschina.net/donhui)
