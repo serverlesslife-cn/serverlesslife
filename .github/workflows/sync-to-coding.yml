@@ -1,20 +1,14 @@
-name: Sync Repo
+name: sync-to-coding
+
 on:
-  schedule:
-    - cron:  '0 16 * * *'
+  push:
+    branches:
+      - master  # Set a branch to deploy
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-    - name: Sync to Gitee
-      uses: x-dr/sync-repo-to-gitee@master
-      env:
-          SSH_KEY: ${{ secrets.GITEE_KEY }}
-      with:
-          github-repo: "git@github.com:serverlesslife-cn/serverlesslife.git"
-          gitee-repo: "git@gitee.com:serverlesslife/serverlesslife.git"
-
     - name: Sync to CODING
       uses: serverlesslife-cn/sync-repo-to-coding@master
       env:
