@@ -10,7 +10,7 @@ featuredImagePreview: '/images/2021-03-08-use-coding-devops-deploy-serverless-ap
 ![cover](/images/2021-03-08-use-coding-devops-deploy-serverless-application/cover.png)
 
 ## 前言
-2021年年初，使用 Serverless Framework  在提腾讯云上部署了一个个人博客：serverlesslife.cn。
+2021年年初，使用 Serverless Framework  在腾讯云上部署了一个个人博客：serverlesslife.cn。
 
 源码托管在 GitHub 上：[https://github.com/serverlesslife-cn/serverlesslife](https://github.com/serverlesslife-cn/serverlesslife)
 
