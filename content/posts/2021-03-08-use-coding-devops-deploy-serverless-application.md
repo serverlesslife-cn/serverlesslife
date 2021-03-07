@@ -173,3 +173,7 @@ pipeline {
 
 ![ci-log](/images/2021-03-08-use-coding-devops-deploy-serverless-application/ci-log.png)
 
+## 总结
+本文讲述了在代码在 GitHub 上，使用 GitHub Actions 部署 Serverless 应用到国内的腾讯云时总是失败，
+于是将代码从 GitHub 同步到 CODING，然后再通过 CODING 的 CI 功能部署 Serverless 应用到腾讯云。
+相信这篇文章会给面临类似情况、有类似需求的开发者带来一些参考价值！
