@@ -2,7 +2,7 @@
 title: '使用 CODING DevOps 部署 Serverless 应用'
 summary: '本文讲述如何使用 CODING DevOps 自动部署 Serverless 应用。'
 tags: ['serverlesslife', 'serverless framework', 'coding devops']
-date: 2021-03-07
+date: 2021-03-08
 author: donghui
 featuredImagePreview: '/images/2021-03-08-use-coding-devops-deploy-serverless-application/cover.png'
 ---

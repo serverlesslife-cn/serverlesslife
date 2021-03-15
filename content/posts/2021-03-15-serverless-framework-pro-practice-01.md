@@ -1,8 +1,8 @@
 ---
-title: 'Serverless Framework Pro 实践'
+title: 'Serverless Framework Pro 产品体验'
 summary: '了解下 Serverless Framework Pro 吧！'
 tags: ['aws lambda', 'serverless framework']
-date: 2021-03-12
+date: 2021-03-15
 author: donghui
 featuredImagePreview: '/images/2021-03-15-serverless-framework-pro-practice-01/serverless-framework-pro.png'
 ---
