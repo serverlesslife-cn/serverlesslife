@@ -48,7 +48,7 @@ Pro 有三种版本：
 
 可以使用 github 账号和 google 账号登录，也可以使用用户名和密码登录（当然需要提前注册）
 
-![login](/images/2021-03-15-serverless-framework-pro-practice-01/try.png)
+![login](/images/2021-03-15-serverless-framework-pro-practice-01/login.png)
 
 这里使用 github 账号授权登陆，github 授权后填写一个用户名
 
