@@ -85,4 +85,4 @@ featuredImagePreview: '/images/2021-04-06-is_serverless_the_future_part_1/future
 
 无服务器架构的安全性存在问题。
 云提供商提供了一些现成的选项，例如 Amazon GuardDuty，但是它们可能有很多限制，限制了无服务器提供的灵活性。
-实施安全的无服务器应用程序需要很多考虑。
+实现安全的无服务器应用程序需要大量的思考。
