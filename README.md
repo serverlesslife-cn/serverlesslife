@@ -4,3 +4,7 @@
 访问方式：
 * [serverlesslife.gitee.io](https://serverlesslife.gitee.io/)
 * [serverlesslife.cn](https://serverlesslife.cn)
+
+## 微信公众号
+
+![wechat](https://github.com/serverlesslife-cn/serverlesslife/blob/master/static/images/wechat.jpeg)
