@@ -3,7 +3,6 @@
 
 访问方式：
 * [serverlesslife.gitee.io](https://serverlesslife.gitee.io/)
-* [serverlesslife.cn](https://serverlesslife.cn)
 
 ## 微信公众号
 
